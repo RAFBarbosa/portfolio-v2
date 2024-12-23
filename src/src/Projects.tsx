@@ -31,7 +31,7 @@ export function Projects() {
 
 	return (
 		<section id="projects" className="mb-16 md:mb-24" aria-label="Projects">
-			<div className="sticky top-0 z-20 -mx-6 mb-4 w-screen md:w-full bg-neutral-700/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12">
+			<div className="sticky top-0 z-20 -mx-6 mb-4 w-screen md:w-[115%] bg-neutral-700/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12">
 				<h2 className="text-sm font-bold uppercase tracking-widest text-neutral-200">
 					Projects
 				</h2>

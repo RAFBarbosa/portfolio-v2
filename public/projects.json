@@ -12,5 +12,12 @@
 		"tools": ["HTML", "SASS", "Javascript"],
 		"image": "/wedding.png",
 		"link": "https://natalia-e-victor.vercel.app/"
+	},
+	{
+		"title": "Ignite Lab React",
+		"description": "A platform for accessing programming classes with a user account. Features dynamic data management via a database, ensuring easy updates and maintenance. Developed during Rocketseat's Ignite Lab week.",
+		"tools": ["React", "TailwindCSS", "Typescript", "Hygraph"],
+		"image": "/ignite-lab.png",
+		"link": "https://ignite-lab-react-rb.vercel.app/"
 	}
 ]

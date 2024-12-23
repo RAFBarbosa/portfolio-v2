@@ -17,7 +17,7 @@ export function About() {
 					Currently, I’m working on my personal portfolio to showcase
 					my skills and projects. My focus is on ensuring it reflects
 					my dedication to accessibility and modern web practices
-					while using tools like React, TypeScript, TailwindCSS, and
+					while using tools like React, TypeScript, TailwindCSS, SASS,
 					GraphQL.
 				</p>
 				<p className="mb-4">

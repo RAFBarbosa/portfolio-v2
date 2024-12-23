@@ -9,7 +9,7 @@
 	{
 		"title": "Wedding Website",
 		"description": "A complete wedding website with all the essential details for the event, offering easy access to information like the schedule, venue, RSVP, and more.",
-		"tools": ["HTML", "SCSS", "Javascript"],
+		"tools": ["HTML", "SASS", "Javascript"],
 		"image": "/wedding.png",
 		"link": "https://natalia-e-victor.vercel.app/"
 	}

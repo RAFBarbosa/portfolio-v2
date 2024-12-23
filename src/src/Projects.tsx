@@ -89,7 +89,7 @@ export function Projects() {
 										decoding="async"
 										width={200}
 										height={48}
-										className="aspect-video object-cover rounded border-2 border-neutral-200/10 transition group-hover:border-cyan-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+										className="aspect-video object-cover rounded border-2 border-neutral-200/10 transition-all group-hover:border-cyan-200/50 sm:order-1 sm:col-span-2 sm:translate-y-1"
 									/>
 								</div>
 							</li>

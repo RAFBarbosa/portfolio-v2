@@ -22,7 +22,7 @@ export function Header() {
 					<img
 						src={profileImage}
 						alt="Raf Barbosa"
-						className="w-32 h-auto rounded"
+						className="w-32 h-auto rounded border-2 border-neutral-200/10"
 					/>
 				</div>
 				{/* <Menu /> */}

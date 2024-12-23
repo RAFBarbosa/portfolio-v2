@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { About } from "./src/About";
+import { Footer } from "./src/Footer";
+import { Header } from "./src/Header";
+import { Projects } from "./src/Projects";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+	return (
+		<div className="bg-neutral-700 leading-relaxed text-neutral-200 antialiased selection:bg-cyan-300 selection:text-cyan-900">
+			<div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-display md:px-12 md:py-16 lg:py-0 bg-neutral-700">
+				<div className="lg:flex lg:justify-between lg:gap-4 min-h-screen">
+					<Header />
+					<main id="content" className="pt-16 lg:w-[52%] lg:py-21">
+						<About />
+						<Projects />
+						<Footer />
+					</main>
+				</div>
+			</div>
+		</div>
+	);
 }
 
-export default App
+export default App;

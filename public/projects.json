@@ -1,0 +1,16 @@
+[
+	{
+		"title": "Liga Top Sprint",
+		"description": "This is a brief description of the first project.",
+		"tools": ["React", "TailwindCSS", "Typescript", "Hygraph"],
+		"image": "/top-sprint.png",
+		"link": "https://www.ligatopsprint.com/"
+	},
+	{
+		"title": "Wedding Website",
+		"description": "This is a brief description of the second project.",
+		"tools": ["HTML", "SCSS", "Javascript"],
+		"image": "/wedding.png",
+		"link": "https://natalia-e-victor.vercel.app/"
+	}
+]

@@ -18,7 +18,7 @@ export function About() {
 					my skills and projects. My focus is on ensuring it reflects
 					my dedication to accessibility and modern web practices
 					while using tools like React, TypeScript, TailwindCSS, SASS,
-					GraphQL.
+					and GraphQL.
 				</p>
 				<p className="mb-4">
 					I have worked in civil engineering, printing, and other

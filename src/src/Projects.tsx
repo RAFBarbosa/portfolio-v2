@@ -51,7 +51,7 @@ export function Projects() {
 												href={project.link}
 												target="_blank"
 												rel="noopener noreferrer"
-												className="inline-flex items-baseline font-medium leading-tight text-neutral-200 hover:text-cyan-300 focus-visible:text-cyan-300 group/link text-base transition-all "
+												className="inline-flex items-baseline font-medium leading-tight text-neutral-200 hover:text-cyan-300 focus-visible:text-cyan-300 group/link text-base transition-all"
 											>
 												<span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
 												<span>

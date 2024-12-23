@@ -1,14 +1,14 @@
 [
 	{
-		"title": "Liga Top Sprint",
-		"description": "This is a brief description of the first project.",
+		"title": "Top Sprint League",
+		"description": "A virtual Formula 1 league featuring dynamic content like race news, calendar, countdown to the next race, standings, and more. Built with GraphQL for easy maintenance and expansion.",
 		"tools": ["React", "TailwindCSS", "Typescript", "Hygraph"],
 		"image": "/top-sprint.png",
 		"link": "https://www.ligatopsprint.com/"
 	},
 	{
 		"title": "Wedding Website",
-		"description": "This is a brief description of the second project.",
+		"description": "A complete wedding website with all the essential details for the event, offering easy access to information like the schedule, venue, RSVP, and more.",
 		"tools": ["HTML", "SCSS", "Javascript"],
 		"image": "/wedding.png",
 		"link": "https://natalia-e-victor.vercel.app/"

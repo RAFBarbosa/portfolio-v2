@@ -8,7 +8,7 @@ export function Social() {
 					href="https://github.com/RAFBarbosa"
 					target="_blank"
 					rel="noopener noreferrer"
-					className="block hover:text-cyan-200"
+					className="block hover:text-amber-300"
 				>
 					<FaGithub />
 				</a>
@@ -18,7 +18,7 @@ export function Social() {
 					href="https://www.linkedin.com/in/raf-barbosa/"
 					target="_blank"
 					rel="noopener noreferrer"
-					className="block hover:text-cyan-200"
+					className="block hover:text-amber-300"
 				>
 					<FaLinkedin />
 				</a>

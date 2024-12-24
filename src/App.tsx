@@ -5,7 +5,7 @@ import { Projects } from "./src/Projects";
 
 function App() {
 	return (
-		<div className="bg-neutral-700 leading-relaxed text-neutral-200 antialiased selection:bg-cyan-300 selection:text-cyan-900">
+		<div className="bg-neutral-700 leading-relaxed text-neutral-200 antialiased selection:bg-neutral-300 selection:text-amber-600">
 			<div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-display md:px-12 md:py-16 lg:py-0 bg-neutral-700">
 				<div className="lg:flex lg:justify-between lg:gap-4 min-h-screen">
 					<Header />

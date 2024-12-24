@@ -44,14 +44,14 @@ export function Projects() {
 						projects.map((project, index) => (
 							<li className="mb-12" key={index}>
 								<div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-									<div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-neutral-700/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+									<div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-neutral-700/70 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
 									<div className="z-10 sm:order-2 sm:col-span-6">
 										<h3>
 											<a
 												href={project.link}
 												target="_blank"
 												rel="noopener noreferrer"
-												className="inline-flex items-baseline font-medium leading-tight text-neutral-200 hover:text-cyan-300 focus-visible:text-cyan-300 group/link text-base transition-all"
+												className="inline-flex items-baseline font-medium leading-tight text-neutral-200 hover:text-amber-300 focus-visible:text-amber-300 group/link text-base transition-all"
 											>
 												<span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
 												<span>
@@ -73,7 +73,7 @@ export function Projects() {
 															key={idx}
 															className="mr-1.5 mt-2"
 														>
-															<div className="flex items-center rounded-full bg-amber-300/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 group-hover:bg-cyan-400/10 group-hover:text-cyan-300">
+															<div className="flex items-center rounded-full bg-amber-300/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300">
 																{tool}
 															</div>
 														</li>
@@ -89,7 +89,7 @@ export function Projects() {
 										decoding="async"
 										width={200}
 										height={48}
-										className="aspect-video object-cover rounded border-2 border-neutral-200/10 transition-all group-hover:border-cyan-200/50 sm:order-1 sm:col-span-2 sm:translate-y-1"
+										className="aspect-video object-cover rounded border-2 border-neutral-200/10 transition-all group-hover:border-amber-200/50 sm:order-1 sm:col-span-2 sm:translate-y-1"
 									/>
 								</div>
 							</li>

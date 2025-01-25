@@ -2,6 +2,7 @@ import { About } from "./src/About";
 import { Footer } from "./src/Footer";
 import { Header } from "./src/Header";
 import { Projects } from "./src/Projects";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 					<main id="content" className="pt-16 lg:w-[52%] lg:py-21">
 						<About />
 						<Projects />
+						<Analytics />
 						<Footer />
 					</main>
 				</div>

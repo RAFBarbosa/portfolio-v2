@@ -27,7 +27,7 @@ export function About() {
 					now shape my approach to web development.
 				</p>
 				<p>
-					When I’m not coding, I’m usually into motorsport—whether
+					When I’m not coding, I’m usually into motorsport, whether
 					it’s gaming, running a virtual Formula 1 league, or catching
 					up on the latest races. Speed, strategy, and the thrill of
 					it all feel a lot like coding to me.
